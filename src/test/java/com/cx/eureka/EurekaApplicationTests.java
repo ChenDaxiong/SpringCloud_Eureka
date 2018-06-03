@@ -1,4 +1,4 @@
-package com.imooc.eureka;
+package com.cx.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

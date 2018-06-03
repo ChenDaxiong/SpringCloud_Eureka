@@ -1,10 +1,10 @@
 eureka:
-  client:
+  client:  #eureka本身也是一个client端，这里配置它自己注册到哪个服务上
     service-url:
       defaultZone: http://localhost:8761/eureka/
     register-with-eureka: false
   server:
-    enable-self-preservation: false
+    enable-self-preservation: false #这里配置不让自己本身出现在 Instance currently registered with eureka 一栏下
 spring:
   application:
     name: eureka
